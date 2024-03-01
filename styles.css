@@ -489,6 +489,10 @@ strong{
     display: none;
 }
 
+.conseil-mobiles{
+    display: none;
+}
+
 @media screen and (max-width : 768px){
     header{
         display: none;
@@ -504,5 +508,8 @@ strong{
     }
     .floor-section{
         display: none;
+    }
+    .conseil-mobiles{
+        display: initial;
     }
 }
