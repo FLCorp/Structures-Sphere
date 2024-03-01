@@ -1,0 +1,718 @@
+@font-face {
+    font-family: Minecrafter;
+    src: url(font/Minecrafter.Reg.ttf);
+}
+@font-face {
+    font-family: Minecrafter-Alt;
+    src: url(font/Minecrafter.Alt.ttf);
+}
+@font-face {
+    font-family: Minecraft;
+    src: url(font/Minecraft.ttf);
+}
+
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Styles généraux */
+body {
+    font-family: Minecraft;
+    background-color: #1e1e1e;
+    line-height: 1.6;
+}
+
+h1{
+    font-family: Minecrafter-Alt;
+    color: #fff;
+    font-size: 3em;
+}
+
+p{
+    font-family: Arial;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.craft{
+    margin: 20px;
+}
+
+.logo{
+    width: 750px;
+}
+
+.structures{
+    margin: 10px;
+}
+
+.fsd-logo{
+    width: auto;
+    height: auto;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+/* En-tête */
+header {
+    background-color: #282828;
+    padding: 20px;
+}
+  
+nav ul {
+    list-style: none;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: Minecrafter;
+    transition: 0.5s ease;
+}
+nav ul li a:hover {
+    color: #0407bd;
+    font-size: 16px;
+    font-family: Minecrafter;
+}
+  
+/* Section d'accueil (hero section) */
+#hero-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #c600af;
+}
+  
+#hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
+#hero-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #777;
+}
+  
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  
+.btn:hover {
+    background-color: #555;
+}
+  
+/* Sections */
+section {
+    padding: 80px 0;
+}
+  
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+section p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #777;
+}
+  
+/* Formulaire de contact */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+form button {
+    display: block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background-color: #555;
+}
+  
+/* Pied de page */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about-section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#services-section{
+    text-align: center;
+}
+
+.discover{
+    color: white;
+    font-family: Minecrafter;
+}
+
+button{
+    width: 30%;
+    height: 50px;
+    border-radius: 0%;
+    border-color: black;
+    background-color: #7a7a7a;
+    color: white;
+    font-family: Minecraft;
+    font-size: 1em;
+}
+
+strong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+.infos{
+    color: white;
+    font-family: Minecrafter;
+}
+
+.logo-container2 {
+    display: flex;
+    align-items: center;
+}
+  
+.logo2 {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+  
+.old-version{
+    width: 512px;
+}
+
+.center-img{
+    text-align: center;
+}
+
+.btn2 {
+    width: 80%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #1000be;
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+    transition: border-radius 0.5s ease, background-color 0.7s ease, font-size 0.7s ease;
+    font-family: Minecrafter;
+    font-size: 1.5em;
+}
+  
+.btn2:hover {
+    border-color: #fff;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #0003be;
+    font-family: Minecrafter;
+    font-size: 2em;
+}
+
+#flcorporation{
+    text-align: center;
+}
+
+.flcorporation{
+    color: #fff;
+    font-family: Minecraft;
+    background-clip: text;
+    background: linear-gradient(to right, #0013be, #060054);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar {
+    background-color:#000231;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.alpha-btn{
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #004cbe;
+    text-decoration: none;
+    border: 3px solid #004cbe;
+    border-radius: 10px;
+    transition: border-radius 0.5s ease, background-color 0.5s ease, font-size 0.5s ease, text-decoration 0.5s ease, width 0.5s ease;
+    font-family: Minecrafter;
+    font-size: 1.5em;
+}
+
+.alpha-btn:hover{
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #004cbe;
+    color: white;
+    text-decoration: underline;
+    border-radius: 20px;
+    font-size: 1.7em;
+}
+
+.group-head {
+    background-color: #00be62;
+    padding: 20px;
+}
+
+#group-section {
+    text-align: center;
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #00be62, #00be62, #08e3be, #08e3be, #8c0be8, #000231);
+}
+  
+#group-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
+#group-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #777;
+}
+
+.btn3 {
+    width: 40%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #be0000;
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+    font-family: Minecraft;
+    font-size: 1.5em;
+}
+  
+.btn3:hover {
+    border-color: #fff;
+    color: #be0000;
+    background-color: #fff;
+    font-family: Minecraft;
+}
+
+#old-theme{
+    text-align: center;
+}
+  
+.chill-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+  
+.chill-btn:hover {
+    background: linear-gradient(to bottom, #17f05c, #1cd9f3);
+}
+
+.img-fsd{
+    border-radius: 15px;
+    margin: 0 auto;
+    transition: all 0.4s ease;
+}
+
+.img-fsd:hover{
+    opacity: 50%;
+}
+
+.main1{
+    background: linear-gradient(to bottom, #DB202C, #000231);
+}
+  
+.btn4 {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #181818;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  
+.btn4:hover {
+    background-color: #333;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none; /* Masquer par défaut */
+}
+
+.popup button{
+    width: 100px;
+    height: 30px;
+    background-color: #0003be;
+    border: 2px solid #000231;
+}
+
+.news-seasons{
+   color: #fff;
+   font-family: Minecrafter;
+   font-size: 2em; 
+}
+
+.orbite{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.orbite2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 362px;
+}
+
+.flc-flix-4-img{
+    border-radius: 10px;
+    width: 362px;
+}
+
+.news-1 {
+    font-size: 4em;
+    background-image: url(img/Orbite/teaser_background.png);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.news-2 {
+    font-size: 4em;
+    color: #fff;
+}
+
+.conseil{
+    font-family: Arial;
+    color: #fff;
+}
+
+.conseil-2{
+    font-family: Arial;
+    color: #fff;
+    font-size: 2em;
+}
+
+.adblock{
+    text-decoration: underline;
+}
+
+.logomobile{
+    visibility: hidden;
+    display: none;
+}
+
+.fsd-logo-mobile{
+    visibility: hidden;
+    display: none;
+}
+
+.fsd-logo-docs-mobile{
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width : 768px){
+    header{
+        background-color: #d800df;
+    }
+    img {
+        width: 90px;
+        height: 130px;
+        border-radius: 5px;
+    }
+    #hero-section {
+        text-align: center;
+        padding: 100px 0;
+        background: linear-gradient(to bottom, #d800df, #0b006c, #0b006c, #000231);
+    }
+    .img-fsd{
+        border-radius: 15px;
+        margin: 0 auto;
+        transition: width 0.7s ease, height 0.7s ease;
+    }
+    .img-fsd:hover{
+        width: 100px;
+        height: 140px;
+    }
+    .doc-logo{
+        width: 280px;
+    }
+    .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+        background-color: #555;
+    }
+    .btn2 {
+        width: 80%;
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: transparent;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid #1000be;
+        border-radius: 10px;
+        transition: background-color 0.7s ease;
+        transition: border-radius 0.5s ease, background-color 0.7s ease, font-size 0.7s ease;
+        font-family: Minecrafter;
+        font-size: 0.8em;
+    }
+      
+    .btn2:hover {
+        border-color: #fff;
+        border-radius: 50px;
+        color: #fff;
+        background-color: #0003be;
+        font-family: Minecrafter;
+        font-size: 1em;
+    }
+    .btn3 {
+        width: 60%;
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: transparent;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid #be0000;
+        border-radius: 10px;
+        transition: background-color 0.7s ease;
+        transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+        font-family: Minecraft;
+        font-size: 1em;
+    }
+      
+    .btn3:hover {
+        border-color: #fff;
+        color: #be0000;
+        background-color: #fff;
+        font-family: Minecraft;
+    }
+    .logo{
+        width: auto;
+        display: none;
+    }
+    .logomobile{
+        width: auto;
+        display: initial;
+        visibility: visible;
+    }
+    nav ul {
+        list-style: none;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    nav ul li a {
+        color: #fff;
+        font-size: 0.9em;
+        font-family: Minecraft;
+        transition: 0.5s ease;
+    }
+    nav ul li a:hover {
+        color: #0407bd;
+        font-size: 16px;
+        font-family: Minecraft;
+    }
+    .popup {
+        position: fixed;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #1e1e1e;
+        color: #fff;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        display: none; /* Masquer par défaut */
+    }
+    .popup button{
+        width: 100px;
+        height: 30px;
+        background-color: #0003be;
+        border: 2px solid #000231;
+    }
+    .news-seasons{
+        color: #fff;
+        font-family: Minecrafter;
+        font-size: 1em; 
+    }
+
+    .orbite{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: auto;
+    }
+     
+    .orbite2{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 100px;
+    }
+
+    .news-update{
+        width: 250px;
+        height: auto;
+    }
+
+    .news-1{
+        font-size: 1em;
+    }
+
+    .news-2{
+        font-size: 1em;
+    }
+
+    .flc-flix-4-img{
+        border-radius: 10px;
+        width: 100px;
+    }
+    .welcome{
+        display: none;
+    }
+    #flcorporation{
+        display: none;
+    }
+    .news-section{
+        display: none;
+    }
+    .conseil{
+        display: none;
+    }
+    .conseil-2{
+        font-family: Arial;
+        color: #fff;
+        font-size: 0.8em;
+        display: initial;
+    }
+    .new-seasons{
+        width: 280px;
+        height: auto;
+    }
+    strong{
+        background: linear-gradient(to right, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .strong2{
+        background: linear-gradient(to left, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fsd-logo{
+        display: none;
+    }
+    .fsd-logo-mobile{
+        display: initial;
+        visibility: visible;
+        width: 250px;
+        height: auto;
+    }
+    .fsd-logo-docs-mobile{
+        display: initial;
+        visibility: visible;
+        width: 320px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 320px){
+    .fsd-logo-mobile{
+        display: initial;
+        visibility: visible;
+        width: 200px;
+        height: auto;
+    }
+    .fsd-logo-docs-mobile{
+        display: initial;
+        visibility: visible;
+        width: 290px;
+        height: auto;
+    }
+}
