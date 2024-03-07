@@ -15,7 +15,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1300px;
+    width: 1100px;
     color: #fff;
     padding: 20px;
     display: none; /* Masquer par défaut */
@@ -65,20 +65,73 @@
 }
 
 .popup2 {
+    border: 4px solid #000000;
+    background-image: url(img/deepslate_bricks.png);
+    background-size: contain;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 800px;
-    background: linear-gradient(to bottom right, #0003be, #DB202C);
+    width: 1100px;
     color: #fff;
     padding: 20px;
-    border: 3px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     display: none; /* Masquer par défaut */
 }
 
+.popup2 b{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 1.5em;
+}
+
+.popup2 .download{
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+.popup2 .download:hover{
+    width: 300px;
+    background-color: #003d12;
+}
+
+
+.popup2 img {
+    margin: 10px;
+    width: 300px;
+}
+
+
+.popup2 .second-structures {
+    margin: 10px;
+    width: 100px;
+    background-image: url(img/item_frame.png);
+    background-size: contain;
+    transition: all 0.5s ease;
+}
+
+
+.popup2 .second-structures:hover {
+    opacity: 50%;
+    margin: 10px;
+    width: 100px;
+    background-color: #000000;
+}
+
+.popup2 h2 {
+    font-family: Minecrafter;
+}
+
 .popup button{
+    font-family: Minecrafter;
+    width: 200px;
+    height: 40px;
+    background-color: #00a733;
+    border: 2px solid #003d12;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.popup2 button{
     font-family: Minecrafter;
     width: 200px;
     height: 40px;
@@ -92,13 +145,8 @@
     background-color: #003d12;
 }
 
-.popup2 button{
-    width: 100px;
-    height: 30px;
-    background-color: #00a733;
-    border: 2px solid #003d12;
-    cursor: pointer;
-    transition: border-radius 0.7s ease;
+.popup2 button:hover{
+    background-color: #003d12;
 }
 
 .popup .popup-button{
